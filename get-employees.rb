@@ -1,7 +1,7 @@
 #Método GET de Empleados
-
-domain = 'proyecto'
-token = 'qkDkpZHZ16nH9qW3bWwcoakx'
+#Si la página es cliente.buk.cl, el domain es "cliente"
+domain = 'ACÁ VA EL DOMINIO'
+token = 'ACÁ VA EL TOKEN'
 path = "https://#{domain}.buk.cl/api/v1/chile/employees"
 #declaramos las variables para invocar el endpoint
 resource = RestClient::Resource.new(path, headers: {auth_token: token})
